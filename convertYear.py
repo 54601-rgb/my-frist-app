@@ -3,4 +3,4 @@ st.little("แอพลิเคชั่นแปงปี พ.ศ. เป็�
 
 bh_year=st.number_input("กรอกปี พ.ศ. ที่ต้องการแปลง",value=2569)
 ce_year=bh_year-543
-st.(f"ปี ค.ศ. คือ : {ce_year}")
+st.header(f"ปี ค.ศ. คือ : {ce_year}")
